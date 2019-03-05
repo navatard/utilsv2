@@ -3,6 +3,8 @@ const operations = require('./index');
 
 let base = 1;
 
+console.log('base is : ' + base);
+
 it('base should be 2', () => {
     base = operations.add(base, 1);
 
