@@ -35,7 +35,6 @@ const validateNumber = (nb) => {
     else if (nb < -Number.MAX_SAFE_INTEGER) throw new Error(errors.nbTooLow);
 }
 
-
 module.exports = {
     add: add,
     multiply: multiply,
