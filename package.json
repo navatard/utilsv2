@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mgarnier11/utilsv2#readme",
   "devDependencies": {
     "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "nyc": "^13.3.0"
   }
 }
