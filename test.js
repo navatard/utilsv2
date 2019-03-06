@@ -1,7 +1,7 @@
 const assert = require('assert');
 const operations = require('./index');
 
-describe('operation package testing', () => {
+describe('operations package testing', () => {
 
     describe('check base operations', () => {
         it('add(1,1) should return 2', () => {
