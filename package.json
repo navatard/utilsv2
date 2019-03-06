@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F istanbul_mocha"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha && codecov -F utilsv2"
   },
   "repository": {
     "type": "git",
