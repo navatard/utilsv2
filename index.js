@@ -4,31 +4,31 @@ const errors = {
     nbTooLow: 'nb is too low'
 }
 
-function add(nb1, nb2) {
+const add = (nb1, nb2) => {
     validateNumber(nb1);
     validateNumber(nb2);
     return nb1 + nb2;
 }
 
-function multiply(nb1, nb2) {
+const multiply = (nb1, nb2) => {
     validateNumber(nb1);
     validateNumber(nb2);
     return nb1 * nb2;
 }
 
-function substract(nb1, nb2) {
+const substract = (nb1, nb2) => {
     validateNumber(nb1);
     validateNumber(nb2);
     return nb1 - nb2;
 }
 
-function divide(nb1, nb2) {
+const divide = (nb1, nb2) => {
     validateNumber(nb1);
     validateNumber(nb2);
     return nb1 / nb2;
 }
 
-function validateNumber(nb) {
+const validateNumber = (nb) => {
     if (typeof nb != 'number') throw new Error(errors.notANumber);
 
     if (nb > Number.MAX_SAFE_INTEGER) throw new Error(errors.nbTooHigh);

@@ -34,7 +34,6 @@ describe('operation package testing', () => {
     })
 
     describe('check if number is in range', () => {
-
         it('add(9007199254740992, 3) should return an error', () => {
             assert.throws(() => operations.add(9007199254740992, 3), Error, operations.errors.nbTooHigh);
         });
